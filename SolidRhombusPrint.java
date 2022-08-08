@@ -6,7 +6,7 @@ public class SolidRhombusPrint {
                 System.out.print(" ");
             }
             for (int k = 1; k <=5; k++) {
-                System.out.print("*");
+                System.out.print("* ");
             }
             System.out.println();
         }
