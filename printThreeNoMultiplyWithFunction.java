@@ -1,9 +1,8 @@
 import java.util.Scanner;
 
 public class printThreeNoMultiplyWithFunction {
-    public static int calculateMultiply(int a, int b, int c) {
-        int multiply = a * b * c;
-        return multiply;
+    public static int calculateMultiply(int a, int b, int c) {  
+        return (a*b*c);
     }
 
     public static void main(String args[]) {
@@ -11,7 +10,6 @@ public class printThreeNoMultiplyWithFunction {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
-        int multiply = calculateMultiply(a, b, c);
-        System.out.println(multiply);
+        System.out.println(calculateMultiply(a, b, c));
     }
 }
