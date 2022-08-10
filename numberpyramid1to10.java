@@ -5,15 +5,15 @@ public class numberpyramid1to10 {
             for (int j = 1; j <= n - i; j++) {
                 System.out.print(" ");
             }
-            for (int j = 1; j <= i; j++) { 
-             System.out.print(" "+i);
 
+            for (int j = 1; j <= i; j++) {
+                System.out.print(" " + i);
 
-                //----------this is also a method---------
+                // ----------this is also a method---------
 
-              //  int sum = 0;
+                // int sum = 0;
                 // sum += i;
-               // System.out.print(" " + sum);
+                // System.out.print(" " + sum);
             }
             System.out.println();
         }
