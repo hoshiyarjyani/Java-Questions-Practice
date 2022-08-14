@@ -6,6 +6,6 @@ public class setBIT {
 
         int newNo = n | bitmask; //result = 7 (0111))
 
-        System.out.println(newNo);
+        System.out.println( newNo);
     }
 }
