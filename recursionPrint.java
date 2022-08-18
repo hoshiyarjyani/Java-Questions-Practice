@@ -1,6 +1,5 @@
 public class recursionPrint {
-
-    public static void printFn(int n) {
+  public static void printFn(int n) {
         if (n == 0){
             return;
         }
