@@ -13,7 +13,7 @@ public class calPowerRecursionLog {
         else {
             return calcPower(x, n / 2) * calcPower(x, n / 2) * x;
         }
-    }
+    } 
     public static void main(String args[]){
         int x= 2;
         int n= 5;
