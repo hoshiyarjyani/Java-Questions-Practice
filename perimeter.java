@@ -18,7 +18,7 @@ public class perimeter {
         int breadth = sc.nextInt();
 
         //if condition for the check the input is correct or not;
-        if (length >= 1 && breadth <= 100) {
+        if (length >= 1  && breadth <= 100 && 0<breadth) {
             System.out.println(calculatePerimeter(length, breadth));
         } else {
             System.out.println("Please enter value between 'length>=1 && breadth<=100'");
